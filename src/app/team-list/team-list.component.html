@@ -1,0 +1,27 @@
+<div class="title-wrapper">
+    <h2 class="projects-heading">Teams</h2>
+    
+    <div class="search-bar">
+      <input class="search-input" type="text" placeholder="Search Team" (input)="searchTeams($event)">
+      <button class="search-button">Search</button>
+    </div>
+    <div class="create-project-wrapper">
+      <button class="create-project-button" [disabled]="isSubmitting" (click)="openFieldFormDialog()">Create New Team</button>
+    </div>
+  </div>
+  
+  <div class="card-list">
+    <div class="card" *ngFor="let Team of filteredTeams">
+      <div class="card-content" >
+        <h3 class="card-title" (click)="openPopup(Team)">{{ Team.Name }}</h3>
+        <p class="card-description">{{ Team.description }}</p>
+        <div class="user-icons" *ngIf="Team.UserTeams__r && Team.UserTeams__r.records">
+          <div class="user-icon" *ngFor="let userTeam of Team.UserTeams__r.records" [title]="userTeam.User__r.Name">
+            <img [src]="userTeam.User__r.SmallPhotoUrl" alt="User Photo" />
+          </div>
+          <button class="plus-icon" [disabled]="isSubmit" (click)="openAdduserdialog()">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

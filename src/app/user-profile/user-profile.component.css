@@ -1,0 +1,101 @@
+
+.container-wrapper {
+  display: flex;
+}
+
+
+
+.container1 {
+  flex: 1;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+text-align: right;
+max-width: 300px;
+margin: 0 auto;
+padding: 20px;
+background-color: #ddb1eb;
+border-radius: 5px;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  flex:1;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  margin-right: 70px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.centered {
+  margin-right: 50px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ddb1eb;
+  padding: 20px;
+}
+
+.sous-statistic {
+  text-align: center;
+  margin-right: 40px; /* Add more space between the elements */
+}
+
+.sous-statistic:last-child {
+  margin-right: 50px; /* Remove margin from the last element */
+}
+
+.sous-statistic p:first-child {
+  font-size: 20px;
+  color: #6b6b6b;
+  font-weight: bold;
+}
+
+.sous-statistic p:last-child {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+

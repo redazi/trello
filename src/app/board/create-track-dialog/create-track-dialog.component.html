@@ -1,0 +1,22 @@
+<h2 mat-dialog-title>Create New List</h2>
+<!--<div mat-dialog-content>
+  <mat-form-field>
+    <input matInput placeholder="Title" [(ngModel)]="track.title">
+  </mat-form-field>
+
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="track" cdkFocusInitial>Create</button>
+</div>
+-->
+<mat-dialog-content>
+  <form [formGroup]="listForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput placeholder="Name" formControlName="name" required>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="listForm.invalid">Create List</button>
+  </form>
+</mat-dialog-content>

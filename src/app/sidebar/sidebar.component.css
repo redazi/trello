@@ -1,0 +1,214 @@
+.icon-white {
+    color: #ffffff;
+  }
+  
+  /*----------------toggeled sidebar----------------*/
+  
+  .page-wrapper.toggled .sidebar-wrapper {
+    left: 0px;
+  }
+  
+  .logo img {
+    width: 250px; /* Adjust the desired width */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .card1 {
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  h2 {
+    color: azure;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  h1,
+  .title {
+    color: white;
+    font-size: small;
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 2px;
+  }
+  
+  /*----------------sidebar-wrapper----------------*/
+  
+  .sidebar-wrapper {
+    width: 260px;
+    height: 100%;
+    max-height: 100%;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 999;
+  }
+  
+  .sidebar-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-wrapper a {
+    text-decoration: none;
+  }
+  
+  /*----------------sidebar-content----------------*/
+  
+  .sidebar-content {
+    max-height: calc(100% - 30px);
+    height: calc(100% - 30px);
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .sidebar-content.desktop {
+    overflow-y: hidden;
+  }
+  
+  /*--------------------sidebar-brand----------------------*/
+  
+  .sidebar-wrapper .sidebar-brand {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: #bcb8c5;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /*--------------------sidebar-header----------------------*/
+  
+  .sidebar-wrapper .sidebar-header {
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-pic {
+    float: left;
+    width: 60px;
+    padding: 2px;
+    border-radius: 12px;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-pic img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-info {
+    float: left;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-info > span {
+    display: block;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-info .user-role {
+    font-size: 12px;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-info .user-status {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  
+  .sidebar-wrapper .sidebar-header .user-info .user-status i {
+    font-size: 8px;
+    margin-right: 4px;
+    color: #5cb85c;
+  }
+  
+  /*-----------------------sidebar-search------------------------*/
+  
+  .sidebar-wrapper .sidebar-search > div {
+    padding: 10px 20px;
+  }
+  
+  /*----------------------sidebar-menu-------------------------*/
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  li {
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    display: block;
+    padding: 5px;
+  }
+  
+  li span a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  li span a:hover {
+    color: white;
+  }
+  
+  /*-----------------------------chiller-theme-------------------------------------------------*/
+  
+  .chiller-theme .sidebar-wrapper {
+    background: #021335;
+  }
+  
+  /* Border between user profile and dashboard */
+  
+  
+  /* Center line */
+  .center-line {
+    position: relative;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgb(150, 141, 141);
+  }
+  
+  /* Highlight active menu item */
+  li span a.active {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  /* Hover effect for menu items */
+  li span a:hover:not(.active) {
+    
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  li:focus-within {
+    border: 2px solid rgb(150, 141, 141);
+    margin-right: 20px;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  /* Hover effect for menu items */
+  li:hover:not(:focus-within) {
+    background-color: #021335;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }

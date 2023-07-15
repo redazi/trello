@@ -1,0 +1,30 @@
+.header {
+    margin-left: 252px;
+    display: flex;
+    background-color: #026aa7;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin-left: 10px;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,25 @@
+/* Add this CSS to your component's style file */
+
+.mat-dialog-container {
+    width: 400px;
+  }
+  
+  .mat-dialog-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mat-dialog-content {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .mat-dialog-actions {
+    justify-content: flex-end;
+  }
+  
+  button.mat-button {
+    margin-left: 10px;
+  }
+  

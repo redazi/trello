@@ -1,0 +1,53 @@
+
+
+<div class="dialog-container">
+    <h2 style="text-align: center;">Create New Team</h2>
+    <form [formGroup]="myForm" (ngSubmit)="submitForm()">
+        <!--name-->
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" formControlName="Name" class="form-control">
+      </div>
+      <!--theme-->
+      <div class="form-group">
+        <div class="dropdown-toggle" (click)="toggleDropdown()">
+          <input type="text" id="theme__c" formControlName="theme__c" [value]="selectedOption.Id" hidden>
+          <span>{{ selectedOption.Name }}</span>
+          <span class="dropdown-arrow"></span>
+        </div>
+        <div *ngIf="isDropdownOpen">
+          <div class="dropdown-option" *ngFor="let option of theme" (click)="selectOption(option)" [ngStyle]="{ 'background-color': option.Name }">
+            {{ option.Name }}
+          </div>
+        </div>
+      </div>
+      <!--dates-->
+      <div class="form-group">
+        <label for="StartDate__c">Start Date:</label>
+        <input type="datetime-local" id="StartDate__c" formControlName="StartDate__c" class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="	EndDate__c">Start Date:</label>
+        <input type="datetime-local" id="	EndDate__c" formControlName="	EndDate__c" class="form-control">
+      </div>
+      <!--team-->
+      <div class="form-group">
+        <label for="Team__c">Teams:</label>
+        <select id="Team__c" formControlName="Team__c" class="form-control">
+          <option *ngFor="let team of Teams" [value]="team.value">{{ team.label }}</option>
+        </select>
+      </div>
+  
+  
+      <div class="form-actions">
+        <button type="submit" [disabled]="myForm.invalid" class="btn btn-primary">Submit</button>   
+        <button (click)="closeDialog()" class="btn btn-secondary">Cancel</button>
+      </div>
+  
+    </form>
+  </div>
+  
+  
+  
+  

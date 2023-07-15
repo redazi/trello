@@ -1,0 +1,30 @@
+<div class="dialog-container">
+    <div class="team-info">
+      <h1 class="team-name">{{ team.Name }}</h1>
+    </div>
+  
+    <div class="section projects-section">
+      <div class="section-title">Projects</div>
+      <div class="project-list">
+        <div class="project-card" *ngFor="let Projet of Projets">
+          <h2 class="project-name">{{ Projet.Name }}</h2>
+          <p class="project-description">{{ Projet.Description }}</p>
+          <div class="project-details">
+            <span class="project-date"><strong>Start Date:</strong> {{ Projet.StartDate__c }}</span>
+            <span class="project-date"><strong>End Date:</strong> {{ Projet.EndDate__c }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="section team-members-section">
+      <div class="section-title">Team Members</div>
+      <div class="user-list">
+        <div class="user-icon" *ngFor="let User of Users">
+          <img [src]="User.SmallPhotoUrl" alt="User Photo" />
+          <div class="user-name">{{ User.Name }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

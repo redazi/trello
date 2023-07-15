@@ -1,0 +1,28 @@
+<h2 mat-dialog-title>Create New Project</h2>
+<div mat-dialog-content>
+  <mat-form-field>
+    <input matInput placeholder="Title" [(ngModel)]="project.title">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Description" [(ngModel)]="project.description"></textarea>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Select Users</mat-label>
+    <mat-select [(ngModel)]="project.users" multiple>
+      <mat-select-trigger>
+        <mat-chip-list>
+          <mat-chip *ngFor="let user of project.users" [style.background]="tag?.color ? tag.color : '#e0e0e0'" selectable="false">{{ user.name }}</mat-chip>
+        </mat-chip-list>
+      </mat-select-trigger>
+      <mat-option *ngFor="let user of users" [value]="user">
+        {{ user.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="project" cdkFocusInitial>Create</button>
+</div>

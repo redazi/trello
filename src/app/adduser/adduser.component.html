@@ -1,0 +1,6 @@
+<p>adduser works!</p>
+<div class="card" *ngFor="let item of _listUsers">
+    <p>Id: {{ id }}</p>
+    <div><input type="checkbox" name="{{item.Name}}" (change)="onchange()" [(ngModel)]="item.isselected"></div>
+      <a class="card-link">{{item.Name}}</a>
+  </div>

@@ -1,0 +1,441 @@
+[
+  {
+    "id":1,
+    "title": "Day one",
+    "description":"hello",
+    "tracks": [
+      {
+        "id": "track-one",
+        "title": "Track one",
+        "talks": [
+          {
+            "issueType": "epic",
+            "text": "Keynote addess",
+            "priority": "Lowest",
+            "createdAt": "2018-01-01T09:26:05.026Z",
+            "image": "https://i.ytimg.com/vi/7Bj4R7lGl4A/maxresdefault.jpg",
+            "users": [
+              
+              {
+                "id": 4,
+                "name": "Aya",
+                "initials": "AC"
+                
+                
+              }
+              
+              
+              
+            ]
+          },
+          {
+            "issueType": "bug",
+            "text": "VS Code Can Do That",
+            "priority": "Low",
+            "createdAt": "2020-02-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "sub-task",
+            "text": "How to save time & money by planning your ngUpgrade",
+            "priority": "Medium",
+            "createdAt": "2019-03-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "How to AI in JS?",
+            "priority": "High",
+            "createdAt": "2020-04-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "story",
+            "text": "You Might Not Need NgRx",
+            "priority": "Highest",
+            "createdAt": "2020-05-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "story",
+            "text": "Upgrading to Angular without ngUpgrade",
+            "priority": "Low",
+            "createdAt": "2020-06-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Why you need a build system, and why it should be Bazel",
+            "priority": "Lowest",
+            "createdAt": "2020-07-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "The theory of Angular Ivy",
+            "priority": "Highest",
+            "createdAt": "2020-08-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Building an Angular PWA: Angular Service Worker or Workbox?",
+            "priority": "High",
+            "createdAt": "2020-09-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Angular Unit Testing - how to win friends, design better code, and get rich quick!",
+            "priority": "Lowest",
+            "createdAt": "2020-10-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "track-two",
+        "title": "Track two",
+        "talks": [
+          {
+            "issueType": "bug",
+            "text": "Automating UI development",
+            "priority": "High",
+            "createdAt": "2020-11-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "epic",
+            "text": "RxJS schedulers in depth",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/London_Thames_Sunset_panorama_-_Feb_2008.jpg/640px-London_Thames_Sunset_panorama_-_Feb_2008.jpg",
+            "priority": "Medium",
+            "createdAt": "2020-12-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "sub-task",
+            "text": "The good, the bad and the ugly - Component architecture at scale",
+            "priority": "Low",
+            "createdAt": "2019-01-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "story",
+            "text": "Low",
+            "priority": "Lowest",
+            "createdAt": "2019-02-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Optimize and debug change detection like a pro",
+            "priority": "High",
+            "createdAt": "2019-03-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Nest the backend for your Angular application",
+            "priority": "Highest",
+            "createdAt": "2019-04-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Testing Angular with Cypress.io",
+            "priority": "Low",
+            "createdAt": "2019-05-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Location based immersive experiences with Angular and WebXR",
+            "priority": "Medium",
+            "createdAt": "2019-06-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "mini-workshops",
+        "title": "Mini workshops",
+        "talks": [
+          {
+            "issueType": "task",
+            "text": "Deep dive into Angular CLI 7",
+            "priority": "Low",
+            "createdAt": "2019-07-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Angular Material workshop",
+            "priority": "Lowest",
+            "createdAt": "2019-08-01T09:26:05.026Z",
+            "image": "https://pbs.twimg.com/media/DoRVQNuXUAAg7Zt.jpg"
+          },
+          {
+            "issueType": "task",
+            "text": "#UseThePlatform with Stencil and Angular",
+            "priority": "High",
+            "createdAt": "2019-09-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "office-hours",
+        "title": "Office hours",
+        "talks": [
+          {
+            "issueType": "task",
+            "text": "Stefan Baumgartner, Michael Hladky, Katrin Freihofner, Igor Minar",
+            "createdAt": "2019-10-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Ana Cidre, Sam Julien, Sherry List, Noël Macé, Michael Ryan",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg/640px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+            "createdAt": "2019-10-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Sani Yusuf, Craig Spence, Maxim Salnikov, Olivier Combe, Misko Hevery",
+            "createdAt": "2019-11-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Erin Coughlan, Martin Probst, Max Koretskyi, Bo Vandersteene",
+            "createdAt": "2019-12-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "qa-panels",
+        "title": "Q&A panels",
+        "talks": [
+          {
+            "issueType": "task",
+            "text": "Upgrade",
+            "priority": "Highest",
+            "createdAt": "2019-01-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "UI",
+            "priority": "High",
+            "createdAt": "2019-02-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Ivy",
+            "priority": "Highest",
+            "createdAt": "2019-03-01T09:26:05.026Z",
+            "image": "https://pbs.twimg.com/media/DoHCNnlUUAUWfhG.jpg"
+          }
+        ]
+      }
+    ],
+    "users": [
+      {
+        "id": 4,
+        "name": "noha",
+        "initials": "NM"
+        
+        
+      },
+      {
+        "id": 5,
+        "name": "Aya",
+        "initials": "AC"
+        
+        
+      },
+      {
+        "id": 6,
+        "name": "widad",
+        "initials": "W"
+        
+        
+      }
+      
+      
+      
+    ]
+  },
+  {
+    "id":2,
+    "title": "Day TWO",
+    "description":"SECOND PROJECT",
+    "tracks": [
+      {
+        "id": "DRAFT",
+        "title": "DRAFT",
+        "talks": [
+          {
+            "issueType": "epic",
+            "text": "Keynote addess",
+            "priority": "Lowest",
+            "createdAt": "2018-01-01T09:26:05.026Z",
+            "image": "https://i.ytimg.com/vi/7Bj4R7lGl4A/maxresdefault.jpg",
+            "users": [
+              {
+                "id": 3,
+                "name": "ghita",
+                "initials": "RR"
+                
+                
+              },
+              {
+                "id": 2,
+                "name": "reda",
+                "initials": "RZ"
+                
+                
+              }
+              
+              
+              
+            ]
+          },
+          {
+            "issueType": "bug",
+            "text": "VS Code Can Do That",
+            "priority": "Low",
+            "createdAt": "2020-02-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "sub-task",
+            "text": "How to save time & money by planning your ngUpgrade",
+            "priority": "Medium",
+            "createdAt": "2019-03-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "How to AI in JS?",
+            "priority": "High",
+            "createdAt": "2020-04-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Intro",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "story",
+            "text": "You Might Not Need NgRx",
+            "priority": "Low",
+            "createdAt": "2020-05-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "story",
+            "text": "Upgrading to Angular without ngUpgrade",
+            "priority": "Lowest",
+            "createdAt": "2020-06-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Why you need a build system, and why it should be Bazel",
+            "priority": "Highest",
+            "createdAt": "2020-07-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "The theory of Angular Ivy",
+            "priority": "Low",
+            "createdAt": "2020-08-01T09:26:05.026Z"
+          },
+          {
+            "issueType": "task",
+            "text": "Building an Angular PWA: Angular Service Worker or Workbox?",
+            "priority": "Medium",
+            "createdAt": "2020-09-01T09:26:05.026Z",
+            "tags": [
+              {
+                "name": "Deep-dive",
+                "color": "#e0e0e0"
+              }
+            ]
+          },
+          {
+            "issueType": "task",
+            "text": "Angular Unit Testing - how to win friends, design better code, and get rich quick!",
+            "priority": "Medium",
+            "createdAt": "2020-10-01T09:26:05.026Z"
+          }
+        ]
+      }
+      
+      
+      
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "noha",
+        "initials": "NM"
+        
+        
+      },
+      {
+        "id": 2,
+        "name": "reda",
+        "initials": "RZ"
+        
+        
+      },
+      {
+        "id": 3,
+        "name": "ghita",
+        "initials": "RR"
+        
+        
+      }
+      
+      
+      
+    ]
+  }
+]

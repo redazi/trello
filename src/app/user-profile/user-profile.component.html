@@ -1,0 +1,48 @@
+<div class="container-wrapper">
+    <div class="container">
+      <!-- Contents of the "container" div -->
+            <h1>My Account</h1>
+            
+            <hr>
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="{{given_name}} {{Name}}" name="email" id="email" readonly>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="{{email}}" name="email" id="email" readonly>
+
+            <label for="email"><b>Address</b></label>
+            <input type="text" placeholder="{{street_address}}" name="email" id="email" readonly>
+
+            <label for="email"><b>City</b></label>
+            <input type="text" placeholder="{{locality}}" name="email" id="email" readonly>
+        
+            <label for="email"><b>Country</b></label>
+            <input type="text" placeholder="{{country}}" name="email" id="email" readonly>
+
+            <label for="email"><b>Postal Code</b></label>
+            <input type="text" placeholder="{{postal_code}}" name="email" id="email" readonly>
+            <hr>
+    </div>
+    <div class="container1">
+      <!-- Contents of the "container1" div -->
+        <img src="{{picture}}" alt="John" class="image">
+        <div class="centered">
+            <h1>{{given_name}} {{Name}}</h1>
+        </div>
+        <div class="statistics">
+            
+            <div class="sous-statistic" >
+                <p>Projets</p>
+                <p>{{projectCount}}</p>
+            </div>
+            <div class="sous-statistic" >
+                <p>Teams</p>
+                <p>{{teamCount}}</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+

@@ -1,0 +1,33 @@
+<div class="dialog-container">
+    <h2 style="text-align: center;">Create New Team</h2>
+    <form [formGroup]="myForm" (ngSubmit)="submitForm()">
+  
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" formControlName="Name" class="form-control">
+      </div>
+  
+      <mat-form-field class="form-group">
+        <mat-label >Select Users</mat-label>
+        <mat-select for="team" id="team" formControlName="team"   multiple>
+          <mat-option *ngFor="let ur of Urs" [value]="ur.id" class="form-control" (click)="showSelectedOptions(ur.id)">{{ ur.name }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+  
+      <div class="form-group">
+        <label for="description">Description:</label>
+        <textarea id="description" formControlName="Description__c" cols="30" rows="5" class="form-control"></textarea>
+      </div>
+  
+  
+      <div class="form-actions">
+        <button type="submit" [disabled]="myForm.invalid" class="btn btn-primary">Submit</button>   
+        <button (click)="closeDialog()" class="btn btn-secondary">Cancel</button>
+      </div>
+  
+    </form>
+  </div>
+  
+  
+  

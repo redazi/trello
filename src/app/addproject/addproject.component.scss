@@ -1,0 +1,111 @@
+.mat-dialog-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  //test
+  .custom-dropdown {
+    position: relative;
+    width: 200px;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #333 transparent transparent transparent;
+    margin-left: 8px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 8px;
+  }
+  
+  .dropdown-option {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #ccc;
+  }
+  
+  //test
+  .my-select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  select option {
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .mat-dialog-actions {
+    justify-content: flex-end;
+  }
+  .dialog-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
